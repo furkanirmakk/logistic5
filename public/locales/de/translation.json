@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "belgiumWarehouse": "Unser Lager in Belgien",
+    "services": "Unsere Dienstleistungen",
+    "serviceList": {
+      "roadTransportation": "Straßentransport",
+      "airTransport": "Lufttransport",
+      "seaTransport": "Seetransport",
+      "railTransport": "Eisenbahntransport",
+      "multimodalTransport": "Multimodaler Transport",
+      "exhibitionTransport": "Messe Transport",
+      "projectTransport": "Projekttransport",
+      "milkrunTransport": "Milkrun Transport",
+      "warehousingServices": "Lagerdienste",
+      "insuranceServices": "Versicherungsdienste",
+      "customsServices": "Zollservices"
+    }
+  },
+  "language": {
+    "language": "Sprachen"
+  },
+  "footer": {
+    "links": "Links",
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "socialMedia": "Soziale Medien"
+  },
+  "about": {
+    "about": "Hoop Reis Logistics ist ein zuverlässiger Geschäftspartner und Lösungsanbieter, der sich auf Zuverlässigkeit, Arbeitsmoral, qualitativ hochwertigen Service und Kundenzufriedenheit konzentriert. Unsere Reise begann in unserem 20.000 m² großen Lager in Belgien und nach unseren Erfolgen in Belgien, Deutschland, den Niederlanden und Frankreich haben wir diese nach Türkei gebracht. Wir sind in allen Phasen der Logistik tätig, wie z.B. Laden, Transport, Lagerung und Showrooms. Wir führen unsere Operationen in Zusammenarbeit mit unseren Kunden durch, indem wir den besten Preis und Service anbieten. Für unsere europäischen Lasten sorgt unser professionelles Team in Belgien mit modernster Ausrüstung für Lagerung und Showroom-Dienstleistungen. Wir garantieren die Sicherheit unserer Lasten mit kontinuierlicher Überwachung und Informationsfluss. Wir entwickeln innovative, schnelle und zuverlässige Lösungen und schaffen einen Unterschied in der Branche, ohne uns an klassische Pläne zu halten. Wir trennen unsere Kunden nicht in „wir und sie“, sondern arbeiten wie ihre Logistikabteilung. Unsere Motivation seid ihr, wir sind es auch.",
+    "contact": "Kontaktiere uns",
+    "contact2": "Zögern Sie nicht, uns zu kontaktieren, wenn Sie Fragen haben.",
+    "mail": "E-Mail senden",
+    "call": "Anrufen"
+  },
+  "services1": {
+    "description": "Im internationalen Straßentransport gewährleisten unsere starken Geschäftspartner eine schnelle, sichere und kostengünstige Beförderung Ihrer Sendungen, einschließlich Komplettladungen (FTL), Teilladungen (LTL), Import- und Exportdienstleistungen. Zudem bieten wir rund um die Uhr schnellen Support von unserem Hauptsitz in Belgien für ganz Europa an."
+  },
+  "services2": {
+    "description": "Mit der besten Timing und den besten Preisen sorgen wir gemeinsam mit unseren starken Geschäftspartnern für eine schnelle und einwandfreie Lieferung Ihrer Sendungen in jede Ecke der Welt."
+  },
+  "services3": {
+    "description": "Im Seetransport gewährleisten wir mit unseren direkten Verbindungen für Komplettladungen (FCL) und Teilladungen (LCL) sowie unserer \"günstig kaufen, günstig verkaufen\"-Preispolitik eine kontinuierliche Dienstleistung. Mit Standard-, Open-Top-, Reefer-, Flatrack-, High-Cube- und Tankcontainer-Transportsystemen bieten wir schnelle und sichere Lieferungen unter Nutzung moderner Tracking-Technologien, sodass Ihre Ladung rund um die Uhr jederzeit an den gewünschten Ort transportiert werden kann.\n\nWir transportieren Ihre Sendungen von jedem Punkt in der Türkei zu den günstigsten Preisen, dank der direkten Vereinbarungen unseres erfahrenen Teams mit Spediteuren und Reedern. Besonders bei europäischen Sendungen übernehmen wir die Handhabung Ihrer Ladung in unserem Lager im Hafen von Antwerpen (Anvers) mit unserem kompetenten Team und gewährleisten eine schnelle und sichere Lieferung mit einem 24/7-Informationsfluss."
+  },
+  "services4": {
+    "description": "Wir bieten Eisenbahntransporte in viele europäische Länder mit minimalem Schadensrisiko und festen Zeitplänen an. So können wir schwere Lasten kostengünstig und zuverlässig zum Zielort transportieren."
+  },
+  "services5": {
+    "description": "Wir transportieren Waren von einer Adresse zur anderen unter Verwendung verschiedener Transportmethoden wie See-, Straßen-, Luft- und Eisenbahntransport. Wir übernehmen alle Prozesse, einschließlich Beladen, Entladen, Zollabfertigung, Versicherung und Handhabung. Unter Berücksichtigung von Faktoren wie Wetterbedingungen, Zeit und dem Inhalt der Ladung wählen wir das beste Transportmodell aus. Manchmal verwenden wir mehrere Modelle nacheinander, um die Waren zum gewünschten Ziel zu bringen. Auf diese Weise gewährleisten wir maximale Kundenzufriedenheit."
+  },
+  "services6": {
+    "description": "Für alle nationalen und internationalen Messe- und Veranstaltungsprojekte übernehmen wir alle Phasen der Organisation, einschließlich der Dokumentenerstellung, Verpackung, Zollabfertigung, internationalem Transport, zollpflichtigem oder zollfreiem internem Transport, Auspacken und Positionierung, Handhabung und Lagerung leerer Container, wobei wir sicherstellen, dass alles korrekt und rechtzeitig erledigt wird."
+  },
+  "services7": {
+    "description": "Mit unserem Expertenteam und starken Geschäftspartnern bieten wir maßgeschneiderte Lösungen für unsere Kunden. Wir transportieren hochvolumige Produkte auf die für die Bedürfnisse am besten geeignete Weise. Wir führen Transporte wie Fabriken, Kraftwerke, Pipelines, Raffinerien und Treibstoffverarbeitungsanlagen unter Berücksichtigung der Kundenzufriedenheit und Zuverlässigkeit durch."
+  },
+  "services8": {
+    "description": "Wir laden gleiche oder verschiedene Ladungen von verschiedenen Standorten auf unsere Fahrzeuge und liefern sie an verschiedene Ziele."
+  },
+  "services9": {
+    "description": "Statt Ihre europäischen Sendungen direkt an die Adresse zu liefern, lagern wir sie nach Ihren Wünschen in unserem 20.000 Quadratmeter großen Lager in Antwerpen, Belgien. Wann immer Sie möchten, liefern wir jede Menge Ihrer Waren an die gewünschte Adresse in Europa. Sie können unser Lager als Showroom für Ihre potenziellen Kunden nutzen."
+  },
+  "services10":{
+    "description": "Wir führen die Versicherungsprozesse für alle Güter durch, die wir transportieren. Für Ihre Produkte in unserem Lager in Belgien übernehmen wir ebenfalls die Versicherungsabwicklung und lagern Ihre Waren versichert."
+  },
+  "services11": {
+    "description": "Mit unserem erfahrenen Expertenteam führen wir alle Zollformalitäten in den Logistikprozessen durch. Wir ermitteln die Zolltarif-Statistikposition, unterstützen bei der Beschaffung von Vorabgenehmigungen und arbeiten während des gesamten Prozesses bürokratiekonform, um unseren Kunden einen zuverlässigen Service zu bieten."
+  }
+}

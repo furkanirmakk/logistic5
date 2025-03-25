@@ -2,6 +2,7 @@ import React from "react";
 import HomeNavbar from "../components/Navbar/HomeNavbar";
 import Slider from "react-slick";
 import OurServices from "../components/OurServices/OurServices";
+import { useTranslation } from 'react-i18next';
 
 const Home: React.FC = () => {
   const settings = {
@@ -13,27 +14,30 @@ const Home: React.FC = () => {
     autoplay: true, // Otomatik oynatma
     autoplaySpeed: 1000, // Her slayt arasında bekleme süresi (ms)
     swipeToSlide: true, // Kaydırma ile geçişi aktif eder
-    adaptiveHeight: true, // Yükseklik adaptasyonu
+    adaptiveHeight: false, // Yükseklik adaptasyonu
   };
+  
+    // Dil seçeneği
+    const { t } = useTranslation();
 
   const services1 = [
-    { id: 1, name: "Karayolu Taşımacılığı", imageUrl: "/assets/2.png" },
-    { id: 2, name: "Havayolu Taşımacılığı", imageUrl: "/assets/3.png" },
-    { id: 3, name: "Denizyolu Taşımacılığı", imageUrl: "/assets/4.png" },
+    { id: 1, name: t("nav.serviceList.roadTransportation"), imageUrl: "/assets/5.png" },
+    { id: 2, name: t("nav.serviceList.airTransport"), imageUrl: "/assets/6.png" },
+    { id: 3, name: t("nav.serviceList.seaTransport"), imageUrl: "/assets/7.png" },
   ];
   const services2 = [
-    { id: 4, name: "Demiryolu Taşımacılığı", imageUrl: "/assets/2.png" },
-    { id: 5, name: "Multimodel Taşımacılık", imageUrl: "/assets/3.png" },
-    { id: 6, name: "Fuar Taşımacılığı", imageUrl: "/assets/4.png" },
+    { id: 4, name: t("nav.serviceList.railTransport"), imageUrl: "/assets/5.png" },
+    { id: 5, name: t("nav.serviceList.multimodalTransport"), imageUrl: "/assets/6.png" },
+    { id: 6, name: t("nav.serviceList.exhibitionTransport"), imageUrl: "/assets/7.png" },
   ];
   const services3 = [
-    { id: 7, name: "Proje Taşımacılığı ", imageUrl: "/assets/2.png" },
-    { id: 8, name: "MilkRun Taşımacılık", imageUrl: "/assets/3.png" },
-    { id: 9, name: "Depolama Hizmetleri", imageUrl: "/assets/4.png" },
+    { id: 7, name: t("nav.serviceList.projectTransport"), imageUrl: "/assets/5.png" },
+    { id: 8, name: t("nav.serviceList.milkrunTransport"), imageUrl: "/assets/6.png" },
+    { id: 9, name: t("nav.serviceList.warehousingServices"), imageUrl: "/assets/7.png" },
   ];
   const services4 = [
-    { id: 10, name: "Sigorta Hizmetleri", imageUrl: "/assets/2.png" },
-    { id: 11, name: "Gümrük Hizmetleri", imageUrl: "/assets/3.png" },
+    { id: 10, name: t("nav.serviceList.insuranceServices"), imageUrl: "/assets/5.png" },
+    { id: 11, name: t("nav.serviceList.customsServices"), imageUrl: "/assets/6.png" },
   ];
 
   return (
@@ -41,30 +45,24 @@ const Home: React.FC = () => {
       <HomeNavbar />
       <div className="flex-1">
         <Slider {...settings}>
+          
           <div>
             <img
-              src="/assets/1.png"
-              alt="Slide 1"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div>
-            <img
-              src="/assets/2.png"
+              src="/assets/5.png"
               alt="Slide 2"
               className="w-full h-full object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/3.png"
+              src="/assets/6.png"
               alt="Slide 3"
               className="w-full h-full object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/4.png"
+              src="/assets/7.png"
               alt="Slide 4"
               className="w-full h-full object-cover"
             />
@@ -76,7 +74,7 @@ const Home: React.FC = () => {
             className="text-center my-8 pt-20 flex items-center justify-center"
           >
             <div className="w-20 h-1 bg-gray-800 mr-4 rounded"></div>
-            <h1 className="text-3xl font-bold text-gray-800">Hizmetlerimiz</h1>
+            <h1 className="text-3xl font-bold text-gray-800">{t("nav.services")}</h1>
             <div className="w-20 h-1 bg-gray-800 ml-4 rounded"></div>
           </div>
 

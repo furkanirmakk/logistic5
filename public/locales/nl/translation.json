@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Startpagina",
+    "about": "Over ons",
+    "contact": "Contact",
+    "belgiumWarehouse": "Ons Magazijn in België",
+    "services": "Onze Diensten",
+    "serviceList": {
+      "roadTransportation": "Wegvervoer",
+      "airTransport": "Luchtvervoer",
+      "seaTransport": "Zeevracht",
+      "railTransport": "Spoorvervoer",
+      "multimodalTransport": "Multimodaal Vervoer",
+      "exhibitionTransport": "Beursvervoer",
+      "projectTransport": "Projectvervoer",
+      "milkrunTransport": "Milkrun Vervoer",
+      "warehousingServices": "Opslagdiensten",
+      "insuranceServices": "Verzekeringsdiensten",
+      "customsServices": "Douanediensten"
+    }
+  },
+  "language": {
+    "language": "Talen"
+  },
+  "footer": {
+    "links": "Links",
+    "home": "Startpagina",
+    "about": "Over ons",
+    "contact": "Contact",
+    "socialMedia": "Sociale Media"
+  },
+  "about": {
+    "about": "Hoop Reis Logistics is een betrouwbare zakenpartner en oplossingsprovider die zich richt op betrouwbaarheid, werkethiek, hoogwaardige service en klanttevredenheid. Ons avontuur begon in ons 20.000 m² grote magazijn in België, en na onze successen in België, Duitsland, Nederland en Frankrijk hebben we dit naar Turkije gebracht. We zijn actief in alle fasen van de logistiek, zoals laden, transport, opslag en showrooms. We voeren onze operaties uit in samenwerking met onze klanten door de beste prijs en service aan te bieden. Voor onze Europese vracht zorgt ons professionele team in België met de modernste apparatuur voor opslag- en showroomdiensten. We garanderen de veiligheid van onze ladingen met continue monitoring en informatiestroom. We ontwikkelen innovatieve, snelle en betrouwbare oplossingen en maken een verschil in de sector door niet vast te houden aan klassieke plannen. We scheiden onze klanten niet in “wij en zij”, maar werken als hun logistieke afdeling. Onze motivatie zijn jullie, en ook wij.",
+    "contact": "Neem contact met ons op",
+    "contact2": "Aarzel niet om contact met ons op te nemen als u vragen heeft.",
+    "mail": "Stuur e-mail",
+    "call": "Bellen"
+  },
+  "services1": {
+    "description": "In het internationale wegtransport zorgen onze sterke zakenpartners voor een snelle, veilige en voordelige verzending van uw ladingen, inclusief complete ladingen (FTL), deelladingen (LTL), import- en exportdiensten. Daarnaast bieden wij 24/7 snelle ondersteuning vanuit ons hoofdkantoor in België voor heel Europa."
+  },
+  "services2": {
+    "description": "Met de beste timing en de beste prijzen zorgen wij samen met onze sterke zakenpartners voor een snelle en vlekkeloze levering van uw zendingen naar elke uithoek van de wereld."
+  },
+  "services3": {
+    "description": "In het zeevervoer waarborgen wij continuïteit met onze directe verbindingen voor full container load (FCL) en less than container load (LCL) zendingen, evenals ons \"goedkoop kopen, goedkoop verkopen\"-prijsbeleid. Met behulp van standaard-, open-top-, reefer-, flatrack-, high-cube- en tankcontainer- transportsystemen bieden wij snelle en veilige leveringen door gebruik te maken van geavanceerde technologieën voor vrachttracking, zodat uw lading 24/7 op elk gewenst moment naar de gewenste locatie kan worden vervoerd.\n\nWij vervoeren uw zendingen van elk punt in Turkije tegen de goedkoopste tarieven, dankzij de directe overeenkomsten van ons ervaren team met vervoerders en reders. Vooral voor Europese zendingen zorgen wij voor de handling van uw lading in ons magazijn in de haven van Antwerpen (Anvers), met ons deskundige team, en zorgen we voor een snelle en veilige levering met 24/7 informatievoorziening."
+  },
+  "services4": {
+    "description": "We bieden spoorvervoer naar veel Europese landen met minimaal schade risico en vaste tijdschema's. Op deze manier kunnen we zware ladingen kosteneffectief en betrouwbaar naar de bestemmingsplaats vervoeren."
+  },
+  "services5": {
+    "description": "We vervoeren goederen van het ene adres naar het andere met behulp van verschillende transportmethoden zoals zee-, weg-, lucht- en spoorvervoer. Wij nemen alle processen op ons, inclusief laden, lossen, douane-afhandeling, verzekering en behandeling. We kiezen het beste transportmodel door rekening te houden met factoren zoals weersomstandigheden, tijd en de inhoud van de lading. Soms gebruiken we meerdere modellen achter elkaar om de goederen naar de gewenste locatie te vervoeren. Op deze manier zorgen we voor maximale klanttevredenheid."
+  },
+  "services6": {
+    "description": "Voor alle nationale en internationale beurs- en evenementenprojecten verzorgen wij alle fasen van de organisatie, inclusief het opstellen van documenten, verpakking, douaneprocedures, internationaal vervoer, douane- of douanevrij intern vervoer, uitpakken en positioneren, handling en opslag van lege containers, en zorgen ervoor dat alles nauwkeurig en op tijd wordt uitgevoerd."
+  },
+  "services7": {
+    "description": "Met ons deskundige team en sterke zakenpartners bieden we op maat gemaakte oplossingen voor onze klanten. We vervoeren producten met een hoog volume op de meest geschikte manier volgens de behoeften. We voeren operaties uit zoals fabrieken, energiecentrales, pijpleidingen, raffinaderijen en brandstofverwerkingsinstallaties met de focus op klanttevredenheid en betrouwbaarheid."
+  },
+  "services8": {
+    "description": "We laden dezelfde of verschillende vracht van verschillende locaties op onze voertuigen en bezorgen ze op verschillende bestemmingen."
+  },
+  "services9": {
+    "description": "In plaats van uw Europese zendingen rechtstreeks naar het adres te leveren, slaan we ze op volgens uw voorkeur in ons magazijn van 20.000 vierkante meter in Antwerpen, België. Wanneer u wilt, leveren we de door u gewenste hoeveelheid goederen naar het adres in Europa dat u kiest. U kunt ons magazijn gebruiken als showroom voor uw potentiële klanten."
+  },
+  "services10":{
+    "description": " Wij voeren de verzekeringsprocessen uit voor alle goederen die we vervoeren. Voor uw producten in ons magazijn in België voeren we ook de verzekeringsprocedures uit en slaan we uw goederen verzekerd op."
+  },
+  "services11": {
+    "description": " Met ons ervaren expertteam voeren we alle douaneprocedures in logistieke processen uit. We bepalen de douanetariefstatistische positie, bieden ondersteuning bij het verkrijgen van voorlopige goedkeuringen en werken gedurende het gehele proces volgens de bureaucratische normen, zodat we betrouwbare service aan onze klanten bieden."
+  }
+}

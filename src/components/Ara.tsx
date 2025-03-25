@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Ara: React.FC = () => {
   const phoneNumber = "+905322649196"; // Aranacak telefon numarası
@@ -6,6 +7,9 @@ const Ara: React.FC = () => {
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
+
+  // Dil seçeneği
+    const { t } = useTranslation();
 
   return (
     <button
@@ -20,7 +24,7 @@ const Ara: React.FC = () => {
       </span>
       <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-footer rounded-md group-hover:translate-x-0"></span>
       <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">
-        Ara
+        {t("about.call")}
       </span>
     </button>
   );

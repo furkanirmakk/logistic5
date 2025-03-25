@@ -1,5 +1,7 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector ";
 
 interface MobileMenuProps {
   open: boolean;
@@ -18,42 +20,45 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
 }) => {
   const navigate = useNavigate(); // React Router navigate hook'u
 
+  // Dil seçeneği
+  const { t } = useTranslation();
+
   // Alt menü öğesine tıklandığında yapılacak işlemi yöneten fonksiyon
   const handleSubMenuItemClick = (item: string) => {
-    if (item === 'hizmetlerimiz1') {
+    if (item === "hizmetlerimiz1") {
       // Home sayfasına yönlendirme ve kaydırma işlemi
-      navigate('/'); // Home sayfasına yönlendir
+      navigate("/"); // Home sayfasına yönlendir
       setTimeout(() => {
-        const targetElement = document.getElementById('hizmetlerimiz-1');
+        const targetElement = document.getElementById("hizmetlerimiz-1");
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' }); // Yumuşak kaydırma
+          targetElement.scrollIntoView({ behavior: "smooth" }); // Yumuşak kaydırma
         }
       }, 200); // Sayfa yüklenmeden kaydırma işlemi yapılmaması için küçük bir bekleme süresi ekliyoruz
-    } else if (item === 'hizmetlerimiz2') {
+    } else if (item === "hizmetlerimiz2") {
       // Benzer şekilde diğer ürünler için yönlendirme ve kaydırma yapılabilir
-      navigate('/'); // Home sayfasına yönlendir
+      navigate("/"); // Home sayfasına yönlendir
       setTimeout(() => {
-        const targetElement = document.getElementById('hizmetlerimiz-2');
+        const targetElement = document.getElementById("hizmetlerimiz-2");
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+          targetElement.scrollIntoView({ behavior: "smooth" });
         }
       }, 200);
-    }else if (item === 'hizmetlerimiz3') {
+    } else if (item === "hizmetlerimiz3") {
       // Benzer şekilde diğer ürünler için yönlendirme ve kaydırma yapılabilir
-      navigate('/'); // Home sayfasına yönlendir
+      navigate("/"); // Home sayfasına yönlendir
       setTimeout(() => {
-        const targetElement = document.getElementById('hizmetlerimiz-3');
+        const targetElement = document.getElementById("hizmetlerimiz-3");
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+          targetElement.scrollIntoView({ behavior: "smooth" });
         }
       }, 200);
-    }else if (item === 'hizmetlerimiz') {
+    } else if (item === "hizmetlerimiz") {
       // Benzer şekilde diğer ürünler için yönlendirme ve kaydırma yapılabilir
-      navigate('/'); // Home sayfasına yönlendir
+      navigate("/"); // Home sayfasına yönlendir
       setTimeout(() => {
-        const targetElement = document.getElementById('hizmetlerimiz-4');
+        const targetElement = document.getElementById("hizmetlerimiz-4");
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+          targetElement.scrollIntoView({ behavior: "smooth" });
         }
       }, 200);
     }
@@ -64,11 +69,14 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
   return (
     <div
       className={`fixed top-0 right-0 w-64 h-full bg-gray-800 text-black p-4 transform transition-transform ease-in-out duration-300 ${
-        open ? 'translate-x-0' : 'translate-x-full'
+        open ? "translate-x-0" : "translate-x-full"
       }`}
     >
       {/* Çarpı butonunu sağa yerleştiriyoruz */}
-      <button onClick={toggleMenu} className="absolute top-4 right-4 text-white">
+      <button
+        onClick={toggleMenu}
+        className="absolute top-4 right-4 text-white"
+      >
         <svg
           className="w-6 h-6"
           fill="none"
@@ -89,22 +97,30 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
         <a
           href="/"
           onClick={() => {
-            handleLinkClick('anasayfa');
+            handleLinkClick("anasayfa");
             toggleMenu(); // Menü kapansın
           }}
           className="hover:text-white hover:bg-gray-400"
         >
-          Anasayfa
+          {t("nav.home")}
         </a>
         <a
           href="/about"
           onClick={() => {
-            handleLinkClick('hakkimizda');
+            handleLinkClick("hakkimizda");
             toggleMenu(); // Menü kapansın
           }}
           className="hover:text-white hover:bg-gray-400"
         >
-          Hakkımızda
+          {t("nav.about")}
+        </a>
+
+        <a
+          href="/about"
+          className="hover:underline"
+          onClick={() => handleLinkClick("about")}
+        >
+          {t("nav.belgiumWarehouse")}
         </a>
 
         <div className="relative">
@@ -115,7 +131,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
             }}
             className="hover:text-white hover:bg-gray-400"
           >
-            Hizmetlerimiz
+            {t("nav.services")}
           </a>
 
           {/* Alt Menü */}
@@ -124,81 +140,80 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz1')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
-                Karayolu Taşımacılığı 
+                {t("nav.serviceList.roadTransportation")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz1')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
-                Havayolu Taşımacılığı 
+                {t("nav.serviceList.airTransport")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz1')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
-                Denizyolu Taşımacılığı
+                {t("nav.serviceList.seaTransport")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz2')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
-                Demiryolu Taşımacılığı
+                {t("nav.serviceList.railTransport")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz2')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
-                Multimodel Taşımacılık
+                {t("nav.serviceList.multimodalTransport")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz2')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
-                Fuar Taşımacılığı
+                {t("nav.serviceList.exhibitionTransport")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz3')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
-                Proje Taşımacılığı
+                {t("nav.serviceList.projectTransport")} 
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz3')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
-                MilkRun Taşımacılık
+                {t("nav.serviceList.milkrunTransport")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz3')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
-                Depolama Hizmetleri
+                {t("nav.serviceList.warehousingServices")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz4')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz4")}
               >
-                Sigorta Hizmetleri
+                {t("nav.serviceList.insuranceServices")}
               </a>
               <a
                 href="#"
                 className="p-2 hover:bg-gray-400"
-                onClick={() => handleSubMenuItemClick('hizmetlerimiz4')}
+                onClick={() => handleSubMenuItemClick("hizmetlerimiz4")}
               >
-                Gümrük Hizmetleri
+                {t("nav.serviceList.customsServices")}
               </a>
-              
             </div>
           )}
         </div>
@@ -206,13 +221,14 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
         <a
           href="/contact"
           onClick={() => {
-            handleLinkClick('iletisim');
+            handleLinkClick("iletisim");
             toggleMenu(); // Menü kapansın
           }}
           className="hover:text-white hover:shadow-lg"
         >
-          İletişim
+          {t("nav.contact")}
         </a>
+        <LanguageSelector />
       </div>
     </div>
   );

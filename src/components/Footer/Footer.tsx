@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
@@ -9,6 +10,9 @@ import { useNavigate } from "react-router-dom";
 
 const Footer: React.FC = () => {
   const navigate = useNavigate(); // React Router'ın useNavigate hook'u
+
+  // Dil seçeneği
+  const { t } = useTranslation();
 
   // Ürünlere tıklanırsa ilgili bölümüne kaydırma işlemi
   const handleProductClick = (productId: string) => {
@@ -22,7 +26,7 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-nbbg text-white py-10"> 
+    <footer className="bg-nbbg text-white py-10">
       <div className="container mx-auto px-4">
         {/* Üst Kısım */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center sm:text-left">
@@ -36,17 +40,25 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Bağlantılar */}
-          <div >
-            <h3 className="text-lg font-semibold mb-4 flex justify-center items-cente">Bağlantılar</h3>
+          <div>
+            <h3 className="text-lg font-semibold mb-4 flex justify-center items-cente">
+              {t("footer.links")}
+            </h3>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="hover:underline hover:text-footer flex justify-center items-cente">
-                  Anasayfa
+                <a
+                  href="/"
+                  className="hover:underline hover:text-footer flex justify-center items-cente"
+                >
+                  {t("footer.home")}
                 </a>
               </li>
               <li>
-                <a href="/about" className="hover:underline hover:text-footer flex justify-center items-cente">
-                  Hakkımızda
+                <a
+                  href="/about"
+                  className="hover:underline hover:text-footer flex justify-center items-cente"
+                >
+                  {t("footer.about")}
                 </a>
               </li>
               <li>
@@ -54,18 +66,19 @@ const Footer: React.FC = () => {
                   href="/contact"
                   className="hover:underline hover:text-footer flex justify-center items-cente"
                 >
-                  İletişim
+                  {t("footer.contact")}
                 </a>
               </li>
             </ul>
           </div>
 
           {/* Ürünlerimiz */}
-          
 
           {/* Sosyal Medya */}
-          <div >
-            <h3 className="text-lg font-semibold mb-4  flex justify-center ">Sosyal Medya</h3>
+          <div>
+            <h3 className="text-lg font-semibold mb-4  flex justify-center ">
+              {t("footer.socialMedia")}
+            </h3>
             <div className="flex justify-center  sm:justify-center space-x-4 ">
               <section className="flex justify-center items-center">
                 <button

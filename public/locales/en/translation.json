@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "belgiumWarehouse": "Belgium Warehouse",
+    "services": "Our Services",
+    "serviceList": {
+      "roadTransportation": "Road Transportation",
+      "airTransport": "Air Transport",
+      "seaTransport": "Sea Transport",
+      "railTransport": "Rail Transport",
+      "multimodalTransport": "Multimodal Transport",
+      "exhibitionTransport": "Exhibition Transport",
+      "projectTransport": "Project Transport",
+      "milkrunTransport": "Milkrun Transport",
+      "warehousingServices": "Warehousing Services",
+      "insuranceServices": "Insurance Services",
+      "customsServices": "Customs Services"
+    }
+  },
+  "language": {
+    "language": "Language"
+  },
+  "footer": {
+    "links": "Link",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "socialMedia": "Social Media"
+  },
+  "about": {
+    "about": "Hoop Reis Logistics is a reliable business and solution partner that focuses on reliability, work ethic, quality service, and customer satisfaction with its experienced managers and dynamic team of 25 years. We began our journey in our 20,000 m² warehouse in Belgium and expanded our success to Belgium, Germany, the Netherlands, and France, before bringing it to Turkey. We are involved in every stage of logistics, including loading, transportation, warehousing, and showroom services. In collaboration with our customers, we run our operations by providing the best price and service. For our European shipments, our professional team in Belgium offers storage and showroom services with state-of-the-art equipment. We ensure the security of our shipments through continuous tracking and information flow. We create innovative, fast, and reliable solutions, making a difference in the industry without adhering to traditional plans. We work as an extension of our customers' logistics departments, without separating them as “us and them.” Our motivation is you, and it is us.",
+    "contact": "Contact Us",
+    "contact2": "If you have any questions, feel free to contact us.",
+    "mail": "Send Email",
+    "call": "Call"
+  },
+  "services1": {
+    "description": "In international road transportation, our strong business partners ensure fast, secure, and the best-priced transportation for your shipments, including full truckload (FTL), less than truckload (LTL), import, and export services. Additionally, we provide 24/7 fast support from our Belgium headquarters to all of Europe."
+  },
+  "services2": {
+    "description": "With the best timing and the best prices, we ensure fast and flawless delivery of your shipments to every corner of the world together with our strong business partners."
+  },
+  "services3": {
+    "description": "In maritime transportation, we ensure continuity with our \"buy low, sell low\" pricing policy, offering direct shipping routes for full container load (FCL) and less than container load (LCL) shipments. Using standard, open-top, reefer, flat rack, high cube, and tank container transportation systems, we provide fast and secure delivery with advanced tracking technology, allowing you to transport your cargo anytime, anywhere, 24/7.\n\nWe transport your shipments from every point in Turkey at the most affordable rates, thanks to our experienced team’s direct agreements with carriers and shipowners. Particularly for European shipments, we handle cargo at our warehouse in the Port of Antwerp (Anvers) with our expert team, ensuring fast and secure delivery through 24/7 real-time updates."
+  },
+  "services4": {
+    "description": "We provide railway transportation to many European countries with minimum damage risk and fixed time schedules. This allows us to deliver heavy loads to the destination point in a cost-effective and reliable manner."
+  },
+  "services5": {
+    "description": "We transport goods from one address to another using various transportation methods such as sea, road, air, and rail. We take care of all the processes, including loading, unloading, customs clearance, insurance, and handling. Considering factors such as weather conditions, time, and the content of the cargo, we select the best transportation model. Sometimes, we use multiple models in sequence to deliver the goods to the desired point. In this way, we ensure maximum customer satisfaction."
+  },
+  "services6": {
+    "description": "For all national and international fair and event projects, we handle all stages of the organization, including document preparation, packaging, customs procedures, international transportation, customs or customs-free internal transportation, unpacking and positioning, handling, and empty container storage, ensuring everything is completed accurately and on time."
+  },
+  "services7": {
+    "description": "With our expert team and strong business partners, we provide tailored solutions for our customers. We transport high-volume products in the most suitable way according to the needs. We handle operations such as factory, power plant, pipeline, refinery, and fuel processing plant transportation with a focus on customer satisfaction and reliability."
+  },
+  "services8": {
+    "description": "We load the same or different cargos from various locations onto our vehicles and deliver them to various destinations."
+  },
+  "services9": {
+    "description": " Instead of delivering your European shipments directly to the address, we store them in our 20,000 square meter warehouse in Antwerp, Belgium, according to your preference. Whenever you wish, we deliver any amount of your goods to the address in Europe that you want. You can use our warehouse as a showroom for your potential customers."
+  },
+  "services10":{
+    "description": "We carry out the insurance processes for all the goods we transport. For your products in our Belgium warehouse, we also perform the insurance procedures and store your goods in an insured manner."
+  },
+  "services11": {
+    "description": "With our experienced team of experts, we handle all customs procedures in logistics processes. We determine the Customs Tariff Statistical Position, provide support in obtaining preliminary approvals, and ensure compliance with bureaucracy throughout the process, offering reliable service to our customers."
+  }
+}

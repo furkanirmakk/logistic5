@@ -1,23 +1,29 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 const Mail = () => {
   const handleClick = () => {
     const email = "example@example.com"; // Burada göndereceğiniz mail adresini yazın
     const subject = "E-posta Konusu"; // İstediğiniz konu başlığını buraya yazabilirsiniz
     const body = "Mesajınızı buraya yazabilirsiniz."; // E-posta içeriği
-    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
   };
+
+  // Dil seçeneği
+  const { t } = useTranslation();
 
   return (
     <StyledWrapper>
       <button className="bt" id="bt" onClick={handleClick}>
         <span className="msg" id="msg" />
-        E-posta Gönder
+        {t("about.mail")}
       </button>
     </StyledWrapper>
   );
-}
+};
 
 const StyledWrapper = styled.div`
   .bt {
@@ -26,7 +32,7 @@ const StyledWrapper = styled.div`
     font-size: 18px;
     color: white;
     text-align: center;
-    background-color: #D1A54C;
+    background-color: #d1a54c;
     box-shadow: #cacaca 2px 2px 10px 1px;
     border-radius: 12px;
     height: 60px;

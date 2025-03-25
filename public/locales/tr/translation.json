@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "belgiumWarehouse": "Belçika Depomuz",
+    "services": "Hizmetlerimiz",
+    "serviceList": {
+      "roadTransportation": "Karayolu Taşımacılığı",
+      "airTransport": "Havayolu Taşımacılığı",
+      "seaTransport": "Denizyolu Taşımacılığı",
+      "railTransport": "Demiryolu Taşımacılığı",
+      "multimodalTransport": "Multimodal Taşımacılığı",
+      "exhibitionTransport": "Fura Taşımacılığı",
+      "projectTransport": "Proje Taşımacılığı",
+      "milkrunTransport": "Milkrun Taşımacılığı",
+      "warehousingServices": "Depolama Hizmetleri",
+      "insuranceServices": "Sigorta Hizmetleri",
+      "customsServices": "Gümrük Hizmetleri"
+    }
+  },
+  
+  "language":{
+    "language": "Diller"
+  },
+
+  "footer":{
+    "links": "Bağlantılar",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "socialMedia": "Sosyal Medya"
+  },
+
+  "about": {
+    "about": "Hoop Reis Logistics, 25 yıllık deneyimli yöneticileri ve dinamik ekibiyle güvenilirlik, iş ahlakı, kaliteli hizmet ve müşteri memnuniyetini esas alan bir iş ve çözüm ortağıdır. Belçika’daki 20.000 m² depomuzda başlayan serüvenimizi Belçika, Almanya, Hollanda ve Fransa’daki başarılarımızın ardından Türkiye’ye taşıdık. Yükleme, taşıma, depolama ve showroom gibi lojistiğin her aşamasında yer alıyoruz. Müşterilerimizle iş birliği içinde, en iyi fiyat ve hizmeti sunarak operasyonlarımızı yürütüyoruz. Avrupa yüklerimiz için Belçika’daki profesyonel ekibimiz son teknoloji ekipmanlarla depolama ve showroom hizmetleri sağlıyor. Sürekli takip ve bilgi akışı ile yüklerimizin güvenliğini garanti altına alıyoruz. Yenilikçi, hızlı ve güvenilir çözümler üretiyor, klasik planlara bağlı kalmadan sektörde fark yaratıyoruz. Müşterilerimizi 'biz ve onlar' olarak ayırmayıp, onların lojistik departmanı gibi çalışıyoruz. Motivasyonumuz sizlersiniz, bizleriz.",
+    "contact": "Bize Ulaşın",
+    "contact2": "Herhangi bir sorunuz varsa, bizimle iletişime geçmekten çekinmeyin.",
+    "mail": "E-posta gönder",
+    "call": "Ara"
+  },
+  "services1": {
+    "description": "Uluslararası karayolu taşımacılığında güçlü iş ortaklarımız hızlı, güvenli ve en iyi fiyatlarla yüklerinizi komple, parsiyel, ithalat, ihracat karayolu taşımacılığı yapıyoruz. Ayrıca Belçika merkezimizden tüm Avrupa'ya 7/24 hızlı destek sağlıyoruz."
+  },
+  "services2": {
+    "description": "En iyi zamanlamayla ve en iyi fiyatlarla dünyanın her noktasına güçlü iş ortaklarımızla beraber hızlı ve kusursuz şekilde gönderilerinizin teslimatını yapıyoruz."
+  },
+  "services3": {
+    "description": "Denizyolu taşımacılığında direkt hatlarla komple (FCL), parsiyel (LCL) yüklerinizi ucuz al ucuz sat fiyat politikamızla süreklilik sağlayarak standart, open top, refeer, flatrack, high cube ve tank konteyner taşıma sistemleriyle hızlı, güvenli teknolojik takip sistemlerini kullanarak 7/24 yükünüzü dilediğiniz zaman istediğiniz noktaya ulaştırıyoruz. Türkiye'deki her noktadan yüklerinizi tecrübeli kadromuzun direkt taşıyıcılardan ve armatörlerden aldığı ucuz fiyatlarla taşıyoruz. Özellikle Avrupa yüklemelerinde Antwerp (Anvers) limanındaki depomuzda tecrübeli kadromuzla elleçleme yaparak 7/24 bilgi akışıyla hızlı, güvenli şekilde yüklerinizin teslimini sağlıyoruz."
+  },
+  "services4": {
+    "description": "Minimum hasar riski ve sabit sürelerle birçok Avrupa ülkesine demiryolu taşımacılığı yapıyoruz. Bu sayede ağırlığı yüksek yükleri uygun fiyatlı ve güvenilir bir şekilde teslimat noktasına ulaştırmış oluyoruz."
+  },
+  "services5": {
+    "description": "Adresten adrese taşınacak yükleri denizyolu, karayolu, havayolu, demiryolu gibi çeşitli taşıma yöntemlerini kullanarak bir noktadan diğer noktaya ulaştırıyoruz. Yükleme, indirme, gümrükleme, sigortalama, elleçleme gibi işlemlerin tamamını üstleniyoruz. Hava koşulları, zaman, yükün içeriği gibi unsurları göz önünde bulundurup en iyi taşımacılık modelini seçiyoruz. Kimi zaman birden fazla modeli sırayla kullanıp yüklerimizi istenilen noktaya ulaştırıyoruz. Böylece müşterilerimize maksimum memnuniyeti sağlıyoruz."
+  },
+  "services6": {
+    "description": "Ulusal ve uluslararası tüm fuar ve etkinlik projeleri için belge düzenleme, paketleme, gümrük işlemleri, uluslararası taşıma, gümrüklü veyagümrüksüz dahili taşıma, paket açma ve konumlandırma, elleçleme ve boş kap depolama gibi organizasyonların tüm aşamalarını eksiksiz ve zamanında yerine getiriyoruz."
+  },
+  "services7": {
+    "description": "Uzman kadromuz ve güçlü iş ortaklarımız ile müşterilerimize uygun çözümler üretiyoruz. Yüksek hacimli ürünleri ihtiyaca en uygun şekilde taşıyoruz. Fabrika, enerji santrali, boru hattı, rafineri, yakıt işleme tesisleri taşımacılığı gibi işlemleri müşteri memnuniyeti ve güvenilirlik ilkelerini göz önünde bulundurarak gerçekleştiriyoruz."
+  },
+  "services8": {
+    "description": "Çeşitli noktalardan alınacak aynı veya farklı yükleri araçlarımıza yükleyip çeşitli noktalara ulaştırıyoruz."
+  },
+  "services9": {
+    "description": "Avrupa yüklerinizi isteğinize bağlı olarak direkt adrese teslim etmek yerine Belçika Antwerp'teki 20.000 metrekare depomuzda depoluyoruz. İstediğiniz zaman Avrupa'da gönderim yapmak istediğiniz adrese yüklerinizin dilediğiniz kadarını ulaştırıyoruz. Potansiyel müşterileriniz için depomuzu showroom olarak kullanabilirsiniz."
+  },
+  "services10":{
+    "description": "Taşıdığımız tüm yüklerin sigorta işlemlerini gerçekleştiriyoruz. Belçika depomuzdaki ürünleriniz için de sigorta işlemlerini gerçekleştirip ürünlerinizi sigortalı şekilde depoluyoruz."
+  },
+  "services11": {
+    "description": "Alanında uzman tecrübeli kadromuzla lojistik süreçlerdeki tüm gümrük işlemlerini gerçekleştiriyoruz. Gümrük Tarife İstatistik Pozisyonu tespiti yapıyoruz, ön müsaadelerin alınmasında destek sağlıyoruz. Tüm süreçte bürokrasiye uygun şekilde çalışıyor ve müşterilerimize güvenilir bir hizmet sunuyoruz."
+  }
+}

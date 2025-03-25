@@ -1,12 +1,22 @@
 import React, { useState, useEffect } from "react";
 import DesktopMenu from "../DesktopMenu";
 import MobileMenu from "../MobileMenu";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "../LanguageSelector ";
 
 const HomeNavbar: React.FC = () => {
   const [open, setOpen] = useState(false); // Menü açma/kapama durumu
   const [activeLink, setActiveLink] = useState<string | null>(null); // Aktif bağlantıyı tutacak state
   const [showSubMenu, setShowSubMenu] = useState(false); // Alt menü durumu
   const [scrolled, setScrolled] = useState(false); // Kaydırma durumunu takip eden state
+
+  //Dil seçeneği
+  const { t, i18n } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
 
   // Menü durumunu değiştiren fonksiyon
   const handleLinkClick = (link: string) => {
@@ -42,16 +52,18 @@ const HomeNavbar: React.FC = () => {
   return (
     <nav
       className={`fixed w-full z-10 h-16 flex items-center justify-between px-8 transition-all duration-300 ${
-        scrolled ? "bg-nbbg text-white shadow-lg" : "bg-black bg-opacity-50 text-white"
+        scrolled
+          ? "bg-nbbg text-white shadow-lg"
+          : "bg-black bg-opacity-50 text-white"
       }`}
     >
       <div className="flex justify-center items-center h-full">
-            <img
-              src="/assets/logo3.png"
-              alt="Şirket Logosu"
-              className="w-32 h-auto"
-            />
-          </div>
+        <img
+          src="/assets/logo3.png"
+          alt="Şirket Logosu"
+          className="w-32 h-auto"
+        />
+      </div>
 
       {/* Desktop Menü: Sadece medium ve üzeri ekranlarda görünür */}
       <div className="hidden md:flex">
@@ -61,7 +73,10 @@ const HomeNavbar: React.FC = () => {
           showSubMenu={showSubMenu} // Alt menü durumu
           toggleSubMenu={toggleSubMenu} // Alt menüyü toggle eden fonksiyon
         />
+        
       </div>
+      
+      
 
       {/* Mobil Menü İkonu: Sadece küçük ekranlarda (md:hidden) görünür */}
       <div className="md:hidden">
@@ -89,8 +104,11 @@ const HomeNavbar: React.FC = () => {
         handleLinkClick={handleLinkClick} // Link tıklama fonksiyonu
         showSubMenu={showSubMenu} // Alt menü durumu
         toggleSubMenu={toggleSubMenu} // Alt menüyü toggle eden fonksiyon
-        toggleMenu={toggleMenu} // Menü açma/kapama fonksiyonu
+        toggleMenu={toggleMenu} // Menü açma/kapama fonksiyonu  
       />
+      
+
+      
     </nav>
   );
 };

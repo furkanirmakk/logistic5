@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from "./LanguageSelector ";
 
 interface DesktopMenuProps {
   activeLink: string;
@@ -21,7 +23,8 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
   const handleSubMenuToggle = () => {
     setIsSubMenuOpen(!isSubMenuOpen); // Alt menüyü tersine çevir
   };
-
+  // Dil seçeneği
+  const { t } = useTranslation();
   // Alt menü öğesine tıklanırsa menü kapanacak ve hedefe kaydıracak
   const handleSubMenuItemClick = (item: string) => {
     setIsSubMenuOpen(false); // Menü öğesi seçildikten sonra menü kapanacak
@@ -81,7 +84,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
           className="hover:underline"
           onClick={() => handleLinkClick("home")}
         >
-          Ana Sayfa
+          {t("nav.home")}
         </a>
       </li>
       <li>
@@ -90,7 +93,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
           className="hover:underline"
           onClick={() => handleLinkClick("about")}
         >
-          Hakkımızda
+          {t("nav.about")}
         </a>
       </li>
       <li>
@@ -99,7 +102,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
           className="hover:underline"
           onClick={() => handleLinkClick("about")}
         >
-          Belçika Depomuz
+          {t("nav.belgiumWarehouse")}
         </a>
       </li>
 
@@ -113,7 +116,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             handleSubMenuToggle(); // Alt menüyü aç/kapat
           }}
         >
-          Hizmetlerimiz
+          {t("nav.services")}
         </a>
 
         {/* Alt Menü (Ürünler listesi) */}
@@ -125,7 +128,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
-                Karayolu Taşımacılığı
+                {t("nav.serviceList.roadTransportation")}
               </a>
             </li>
             <li>
@@ -134,7 +137,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
-                Havayolu Taşımacılığı 
+                {t("nav.serviceList.airTransport")}
               </a>
             </li>
             <li>
@@ -143,7 +146,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
-                Denizyolu Taşımacılığı
+                {t("nav.serviceList.seaTransport")}
               </a>
             </li>
             <li>
@@ -152,7 +155,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
-                Demiryolu Taşımacılığı
+                {t("nav.serviceList.railTransport")}
               </a>
             </li>
             <li>
@@ -161,7 +164,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
-                Multimodel Taşımacılık
+                {t("nav.serviceList.multimodalTransport")}
               </a>
             </li>
             <li>
@@ -170,7 +173,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
-                Fuar Taşımacılığı
+                {t("nav.serviceList.exhibitionTransport")}
               </a>
             </li>
             <li>
@@ -179,7 +182,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
-                Proje Taşımacılığı 
+                {t("nav.serviceList.projectTransport")} 
               </a>
             </li>
             <li>
@@ -188,7 +191,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
-                MilkRun Taşımacılık
+                {t("nav.serviceList.milkrunTransport")}
               </a>
             </li>
             <li>
@@ -197,7 +200,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
-                Depolama Hizmetleri
+                {t("nav.serviceList.warehousingServices")}
               </a>
             </li>
             <li>
@@ -206,7 +209,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz4")}
               >
-                Sigorta Hizmetleri
+                {t("nav.serviceList.insuranceServices")}
               </a>
             </li>
             <li>
@@ -215,7 +218,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
                 className="hover:text-blue-600"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz4")}
               >
-                Gümrük Hizmetleri
+                {t("nav.serviceList.customsServices")}
               </a>
             </li>
             
@@ -230,8 +233,11 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
           className="hover:underline"
           onClick={() => handleLinkClick("contact")}
         >
-          İletişim
+          {t("nav.contact")}
         </a>
+      </li>
+      <li>
+        <LanguageSelector />
       </li>
     </ul>
   );
