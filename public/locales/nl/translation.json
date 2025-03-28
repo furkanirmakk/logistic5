@@ -68,5 +68,13 @@
   },
   "services11": {
     "description": " Met ons ervaren expertteam voeren we alle douaneprocedures in logistieke processen uit. We bepalen de douanetariefstatistische positie, bieden ondersteuning bij het verkrijgen van voorlopige goedkeuringen en werken gedurende het gehele proces volgens de bureaucratische normen, zodat we betrouwbare service aan onze klanten bieden."
+  },
+
+  "contact": {
+    "description":"Als u vragen heeft of wilt samenwerken, neem dan gerust contact met ons op.",
+    "tel":"Telefoon",
+    "mail":"E-Mail",
+    "address":"Adres"
+
   }
 }

@@ -7,7 +7,7 @@ const MailTel = () => {
   // Dil seçeneği
   const { t } = useTranslation();
   return (
-    <div className="py-20 bg-gray-100">
+    <div className="p-12 bg-gray-100">
       <div className="container mx-auto px-4">
         {/* İletişim Bilgileri */}
         <div className="mt-16 text-center animate__animated animate__fadeIn">

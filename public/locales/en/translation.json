@@ -68,5 +68,13 @@
   },
   "services11": {
     "description": "With our experienced team of experts, we handle all customs procedures in logistics processes. We determine the Customs Tariff Statistical Position, provide support in obtaining preliminary approvals, and ensure compliance with bureaucracy throughout the process, offering reliable service to our customers."
+  },
+
+  "contact": {
+    "description":" If you have any questions or would like to collaborate, feel free to contact us.",
+    "tel":"Phone",
+    "mail":"E-Mail",
+    "address":"Address"
+
   }
 }

@@ -68,5 +68,13 @@
   },
   "services11": {
     "description": "Mit unserem erfahrenen Expertenteam führen wir alle Zollformalitäten in den Logistikprozessen durch. Wir ermitteln die Zolltarif-Statistikposition, unterstützen bei der Beschaffung von Vorabgenehmigungen und arbeiten während des gesamten Prozesses bürokratiekonform, um unseren Kunden einen zuverlässigen Service zu bieten."
+  },
+
+  "contact": {
+    "description":"Wenn Sie Fragen haben oder mit uns zusammenarbeiten möchten, können Sie uns gerne kontaktieren.",
+    "tel":"Telefon",
+    "mail":"E-Mail",
+    "address":"Adresse"
+
   }
 }

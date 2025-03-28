@@ -8,12 +8,8 @@ const About: React.FC = () => {
     <div>
       {/* Navbar */}
       <HomeNavbar />
-
-      <div>
       <BackgroundVideo2 />
-      </div>
       <MailTel />
-      
     </div>
   );
 };

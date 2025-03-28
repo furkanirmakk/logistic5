@@ -6,7 +6,7 @@ const BackgroundVideo2 = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative w-full h-screen">
+    <div className=" w-full h-screen ">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="/assets/hk-video.mp4" // Video dosyasının yolu
@@ -14,7 +14,6 @@ const BackgroundVideo2 = () => {
         loop
         muted
       />
-      {/* Video üzerine yazıyı ekliyoruz */}
       <div
         className="absolute top-1/2 transform -translate-y-1/2 bg-black bg-opacity-70 text-white p-6 rounded-md shadow-lg sm:left-1/4 sm:-translate-x-1/2 md:left-1/2 lg:left-1/3 w-auto max-w-4xl min-w-[300px]"
       >

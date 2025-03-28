@@ -71,5 +71,13 @@
   },
   "services11": {
     "description": "Alanında uzman tecrübeli kadromuzla lojistik süreçlerdeki tüm gümrük işlemlerini gerçekleştiriyoruz. Gümrük Tarife İstatistik Pozisyonu tespiti yapıyoruz, ön müsaadelerin alınmasında destek sağlıyoruz. Tüm süreçte bürokrasiye uygun şekilde çalışıyor ve müşterilerimize güvenilir bir hizmet sunuyoruz."
+  },
+
+  "contact": {
+    "description":"Herhangi bir sorunuz veya iş birliği için bizimle iletişime geçebilirsiniz.",
+    "tel":"Telefon",
+    "mail":"E-Mail",
+    "address":"Adres"
+
   }
 }
