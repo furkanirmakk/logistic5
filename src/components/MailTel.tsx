@@ -10,7 +10,7 @@ const MailTel = () => {
     <div className="p-12 bg-gray-100">
       <div className="container mx-auto px-4">
         {/* İletişim Bilgileri */}
-        <div className="mt-16 text-center animate__animated animate__fadeIn">
+        <div className="mt-4 text-center animate__animated animate__fadeIn">
           <h3 className="text-3xl font-semibold text-gray-800 mb-4 animate__animated animate__fadeIn animate__delay-1s">
             {t("about.contact")}
           </h3>

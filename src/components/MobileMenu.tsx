@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 import LanguageSelector from "./LanguageSelector ";
 
 interface MobileMenuProps {
@@ -19,9 +20,19 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
   toggleSubMenu,
 }) => {
   const navigate = useNavigate(); // React Router navigate hook'u
+  const location = useLocation(); // Aktif sayfanın URL'ini alırız
+  const { t } = useTranslation(); // Dil seçeneği
 
-  // Dil seçeneği
-  const { t } = useTranslation();
+  const menuItems = [
+    { path: "/", label: t("nav.home"), key: "anasayfa" },
+    { path: "/about", label: t("nav.about"), key: "hakkimizda" },
+    {
+      path: "/belgiumWarehouse",
+      label: t("nav.belgiumWarehouse"),
+      key: "belgiumWarehouse",
+    },
+    { path: "/contact", label: t("nav.contact"), key: "iletisim" },
+  ];
 
   // Alt menü öğesine tıklandığında yapılacak işlemi yöneten fonksiyon
   const handleSubMenuItemClick = (item: string) => {
@@ -94,34 +105,23 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
       </button>
 
       <div className="flex flex-col space-y-4 mt-10 text-white">
-        <a
-          href="/"
-          onClick={() => {
-            handleLinkClick("anasayfa");
-            toggleMenu(); // Menü kapansın
-          }}
-          className="hover:text-white hover:bg-gray-400"
-        >
-          {t("nav.home")}
-        </a>
-        <a
-          href="/about"
-          onClick={() => {
-            handleLinkClick("hakkimizda");
-            toggleMenu(); // Menü kapansın
-          }}
-          className="hover:text-white hover:bg-gray-400"
-        >
-          {t("nav.about")}
-        </a>
-
-        <a
-          href="/about"
-          className="hover:underline"
-          onClick={() => handleLinkClick("about")}
-        >
-          {t("nav.belgiumWarehouse")}
-        </a>
+        {menuItems.map((item) => (
+          <a
+            key={item.key}
+            href={item.path}
+            onClick={() => {
+              handleLinkClick(item.key);
+              toggleMenu();
+            }}
+            className={`p-2 rounded transition-colors duration-300 ${
+              location.pathname === item.path
+                ? "bg-gray-400 text-black font-bold"
+                : "hover:bg-gray-400 hover:text-white"
+            }`}
+          >
+            {item.label}
+          </a>
+        ))}
 
         <div className="relative">
           <a
@@ -129,7 +129,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
             onClick={() => {
               toggleSubMenu(); // Submenu'yi toggle ediyoruz
             }}
-            className="hover:text-white hover:bg-gray-400"
+            className="p-2 hover:text-black hover:font-bold hover:bg-gray-400"
           >
             {t("nav.services")}
           </a>
@@ -184,7 +184,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
                 className="p-2 hover:bg-gray-400"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
-                {t("nav.serviceList.projectTransport")} 
+                {t("nav.serviceList.projectTransport")}
               </a>
               <a
                 href="#"
@@ -217,18 +217,9 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
             </div>
           )}
         </div>
-
-        <a
-          href="/contact"
-          onClick={() => {
-            handleLinkClick("iletisim");
-            toggleMenu(); // Menü kapansın
-          }}
-          className="hover:text-white hover:shadow-lg"
-        >
-          {t("nav.contact")}
-        </a>
-        <LanguageSelector />
+        <div className="p-2 hover:text-black hover:font-bold hover:bg-gray-400">
+          <LanguageSelector />
+        </div>
       </div>
     </div>
   );

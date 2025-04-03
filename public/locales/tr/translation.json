@@ -19,19 +19,16 @@
       "customsServices": "Gümrük Hizmetleri"
     }
   },
-  
-  "language":{
+  "language": {
     "language": "Diller"
   },
-
-  "footer":{
+  "footer": {
     "links": "Bağlantılar",
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "contact": "İletişim",
     "socialMedia": "Sosyal Medya"
   },
-
   "about": {
     "about": "Hoop Reis Logistics, 25 yıllık deneyimli yöneticileri ve dinamik ekibiyle güvenilirlik, iş ahlakı, kaliteli hizmet ve müşteri memnuniyetini esas alan bir iş ve çözüm ortağıdır. Belçika’daki 20.000 m² depomuzda başlayan serüvenimizi Belçika, Almanya, Hollanda ve Fransa’daki başarılarımızın ardından Türkiye’ye taşıdık. Yükleme, taşıma, depolama ve showroom gibi lojistiğin her aşamasında yer alıyoruz. Müşterilerimizle iş birliği içinde, en iyi fiyat ve hizmeti sunarak operasyonlarımızı yürütüyoruz. Avrupa yüklerimiz için Belçika’daki profesyonel ekibimiz son teknoloji ekipmanlarla depolama ve showroom hizmetleri sağlıyor. Sürekli takip ve bilgi akışı ile yüklerimizin güvenliğini garanti altına alıyoruz. Yenilikçi, hızlı ve güvenilir çözümler üretiyor, klasik planlara bağlı kalmadan sektörde fark yaratıyoruz. Müşterilerimizi 'biz ve onlar' olarak ayırmayıp, onların lojistik departmanı gibi çalışıyoruz. Motivasyonumuz sizlersiniz, bizleriz.",
     "contact": "Bize Ulaşın",
@@ -66,18 +63,29 @@
   "services9": {
     "description": "Avrupa yüklerinizi isteğinize bağlı olarak direkt adrese teslim etmek yerine Belçika Antwerp'teki 20.000 metrekare depomuzda depoluyoruz. İstediğiniz zaman Avrupa'da gönderim yapmak istediğiniz adrese yüklerinizin dilediğiniz kadarını ulaştırıyoruz. Potansiyel müşterileriniz için depomuzu showroom olarak kullanabilirsiniz."
   },
-  "services10":{
+  "services10": {
     "description": "Taşıdığımız tüm yüklerin sigorta işlemlerini gerçekleştiriyoruz. Belçika depomuzdaki ürünleriniz için de sigorta işlemlerini gerçekleştirip ürünlerinizi sigortalı şekilde depoluyoruz."
   },
   "services11": {
     "description": "Alanında uzman tecrübeli kadromuzla lojistik süreçlerdeki tüm gümrük işlemlerini gerçekleştiriyoruz. Gümrük Tarife İstatistik Pozisyonu tespiti yapıyoruz, ön müsaadelerin alınmasında destek sağlıyoruz. Tüm süreçte bürokrasiye uygun şekilde çalışıyor ve müşterilerimize güvenilir bir hizmet sunuyoruz."
   },
-
   "contact": {
-    "description":"Herhangi bir sorunuz veya iş birliği için bizimle iletişime geçebilirsiniz.",
-    "tel":"Telefon",
-    "mail":"E-Mail",
-    "address":"Adres"
-
-  }
+    "description": "Herhangi bir sorunuz veya iş birliği için bizimle iletişime geçebilirsiniz.",
+    "tel": "Telefon",
+    "mail": "E-Mail",
+    "address": "Adres"
+  },
+    "belgium": {
+      "description": "Belçika Antwerp'te bulunan 20.000 metrekare depomuzda çok uygun kiralama fiyatlarımızla ürünlerinizi istediğiniz kadar tutabilir, potansiyel müşterileriniz için depomuzu showroom olarak kullanabilirsiniz. Dilediğiniz zaman Avrupa'daki istediğiniz adrese ürünlerin palet bazında istediğiniz kadarının gönderimini sağlayabiliriz. Kalan ürünler depomuzda dilediğiniz zaman gönderimleri yapılmak üzere muhafaza edilir.",
+      "operations": [
+        "Son sistem kurulu depomuza ürünleriniz profesyonel ekibimiz ile uygun istifleme yöntemleriyle yerleştirilir.",
+        "Ürünleriniz sevkiyat öncesi son teknoloji ekipmanlarla Avrupa standartlarında paletlenir.",
+        "Ürünleriniz depoda sigortalanır.",
+        "Ürünleriniz Türkiye'deki depolama yerine uygun fiyatlarla Belçika'da depolanır.",
+        "Depomuz potansiyel müşteriler için showroom olarak kullanılabilir.",
+        "Ürünleriniz sevkiyat için kendi tırlarımıza profesyonel ekip ve ekipmanlarımızla sistematik yerleştirilir.",
+        "Tek noktadan Avrupa'nın her yerine 24-48 saat arasında teslimat yapılır.",
+        "Tüm operasyon sürecinde Belçika ve Türkiye’de 7/24 ulaşılabilirlik ve bilgi akışı sağlanır."
+      ]
+    }
 }

@@ -63,18 +63,29 @@
   "services9": {
     "description": "In plaats van uw Europese zendingen rechtstreeks naar het adres te leveren, slaan we ze op volgens uw voorkeur in ons magazijn van 20.000 vierkante meter in Antwerpen, België. Wanneer u wilt, leveren we de door u gewenste hoeveelheid goederen naar het adres in Europa dat u kiest. U kunt ons magazijn gebruiken als showroom voor uw potentiële klanten."
   },
-  "services10":{
+  "services10": {
     "description": " Wij voeren de verzekeringsprocessen uit voor alle goederen die we vervoeren. Voor uw producten in ons magazijn in België voeren we ook de verzekeringsprocedures uit en slaan we uw goederen verzekerd op."
   },
   "services11": {
     "description": " Met ons ervaren expertteam voeren we alle douaneprocedures in logistieke processen uit. We bepalen de douanetariefstatistische positie, bieden ondersteuning bij het verkrijgen van voorlopige goedkeuringen en werken gedurende het gehele proces volgens de bureaucratische normen, zodat we betrouwbare service aan onze klanten bieden."
   },
-
   "contact": {
-    "description":"Als u vragen heeft of wilt samenwerken, neem dan gerust contact met ons op.",
-    "tel":"Telefoon",
-    "mail":"E-Mail",
-    "address":"Adres"
-
+    "description": "Als u vragen heeft of wilt samenwerken, neem dan gerust contact met ons op.",
+    "tel": "Telefoon",
+    "mail": "E-Mail",
+    "address": "Adres"
+  },
+  "belgium": {
+    "description": "In ons 20.000 vierkante meter grote magazijn in Antwerpen, België, kunt u uw producten opslaan zolang u wilt tegen zeer voordelige huurprijzen. Ons magazijn kan ook worden gebruikt als showroom voor potentiële klanten. U kunt op elk moment zoveel pallets van uw producten laten verzenden naar elk adres in Europa als u wilt. De resterende producten worden in ons magazijn opgeslagen en kunnen op elk gewenst moment worden verzonden.",
+    "operations": [
+      "Uw producten worden door ons professionele team met geschikte stapelmethoden in ons ultramoderne magazijn geplaatst.",
+      "Voor verzending worden uw producten volgens Europese normen gepalletiseerd met geavanceerde apparatuur.",
+      "Uw producten zijn verzekerd tijdens de opslag.",
+      "Uw producten worden in België opgeslagen tegen concurrerende prijzen in plaats van in een opslagfaciliteit in Turkije.",
+      "Ons magazijn kan worden gebruikt als showroom voor potentiële klanten.",
+      "Uw producten worden systematisch geladen in onze eigen vrachtwagens door ons professionele team met gespecialiseerde apparatuur.",
+      "Levering naar elke locatie in Europa wordt binnen 24-48 uur voltooid vanaf één centraal punt.",
+      "Gedurende het hele operationele proces wordt 24/7 bereikbaarheid en informatievoorziening gegarandeerd in zowel België als Turkije."
+    ]
   }
 }

@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ScrollToTop from "./components/ScrollToTop";
 import ServicesDetails from "./components/OurServices/ServicesDetails";
+import BelgiumWarehouse from "./pages/BelgiumWarehouse";
 
 
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<ServicesDetails />} />
         <Route path="/about" element={<About />} />
+        <Route path="/belgiumWarehouse" element={<BelgiumWarehouse />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <BackToTopButton />

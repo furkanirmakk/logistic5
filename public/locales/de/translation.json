@@ -63,18 +63,29 @@
   "services9": {
     "description": "Statt Ihre europäischen Sendungen direkt an die Adresse zu liefern, lagern wir sie nach Ihren Wünschen in unserem 20.000 Quadratmeter großen Lager in Antwerpen, Belgien. Wann immer Sie möchten, liefern wir jede Menge Ihrer Waren an die gewünschte Adresse in Europa. Sie können unser Lager als Showroom für Ihre potenziellen Kunden nutzen."
   },
-  "services10":{
+  "services10": {
     "description": "Wir führen die Versicherungsprozesse für alle Güter durch, die wir transportieren. Für Ihre Produkte in unserem Lager in Belgien übernehmen wir ebenfalls die Versicherungsabwicklung und lagern Ihre Waren versichert."
   },
   "services11": {
     "description": "Mit unserem erfahrenen Expertenteam führen wir alle Zollformalitäten in den Logistikprozessen durch. Wir ermitteln die Zolltarif-Statistikposition, unterstützen bei der Beschaffung von Vorabgenehmigungen und arbeiten während des gesamten Prozesses bürokratiekonform, um unseren Kunden einen zuverlässigen Service zu bieten."
   },
-
   "contact": {
-    "description":"Wenn Sie Fragen haben oder mit uns zusammenarbeiten möchten, können Sie uns gerne kontaktieren.",
-    "tel":"Telefon",
-    "mail":"E-Mail",
-    "address":"Adresse"
-
+    "description": "Wenn Sie Fragen haben oder mit uns zusammenarbeiten möchten, können Sie uns gerne kontaktieren.",
+    "tel": "Telefon",
+    "mail": "E-Mail",
+    "address": "Adresse"
+  },
+  "belgium": {
+    "description": "In unserem 20.000 Quadratmeter großen Lager in Antwerpen, Belgien, können Sie Ihre Produkte zu sehr günstigen Mietpreisen so lange lagern, wie Sie möchten. Unser Lager kann auch als Showroom für potenzielle Kunden genutzt werden. Sie können jederzeit so viele Paletten Ihrer Produkte wie gewünscht an jede Adresse in Europa versenden lassen. Die verbleibenden Produkte werden in unserem Lager aufbewahrt und können jederzeit versandt werden.",
+    "operations": [
+      "Ihre Produkte werden von unserem professionellen Team mit geeigneten Stapelmethoden in unserem hochmodernen Lager platziert.",
+      "Ihre Produkte werden vor dem Versand mit modernster Ausrüstung nach europäischen Standards palettiert.",
+      "Ihre Produkte werden im Lager versichert.",
+      "Ihre Produkte werden zu günstigen Preisen in Belgien anstelle eines Lagers in der Türkei gelagert.",
+      "Unser Lager kann als Showroom für potenzielle Kunden genutzt werden.",
+      "Ihre Produkte werden von unserem professionellen Team und mit modernster Ausrüstung systematisch in unsere eigenen LKWs verladen.",
+      "Die Lieferung in ganz Europa erfolgt innerhalb von 24-48 Stunden von einem einzigen Standort aus.",
+      "Während des gesamten Betriebsprozesses wird eine 24/7-Erreichbarkeit und Informationsübermittlung sowohl in Belgien als auch in der Türkei sichergestellt."
+    ]
   }
 }

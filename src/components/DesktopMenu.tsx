@@ -81,7 +81,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
       <li>
         <a
           href="/"
-          className="hover:underline"
+          className="hover:underline hover:text-footer"
           onClick={() => handleLinkClick("home")}
         >
           {t("nav.home")}
@@ -90,7 +90,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
       <li>
         <a
           href="/about"
-          className="hover:underline"
+          className="hover:underline hover:text-footer"
           onClick={() => handleLinkClick("about")}
         >
           {t("nav.about")}
@@ -98,9 +98,9 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
       </li>
       <li>
         <a
-          href="/about"
-          className="hover:underline"
-          onClick={() => handleLinkClick("about")}
+          href="/belgiumWarehouse"
+          className="hover:underline hover:text-footer"
+          onClick={() => handleLinkClick("belgiumWarehouse")}
         >
           {t("nav.belgiumWarehouse")}
         </a>
@@ -110,7 +110,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
       <li className="relative">
         <a
           href="#products"
-          className="hover:underline"
+          className="hover:underline hover:text-footer"
           onClick={(e) => {
             e.preventDefault(); // Linkin sayfayı yenilemesini engelliyoruz
             handleSubMenuToggle(); // Alt menüyü aç/kapat
@@ -121,11 +121,11 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
 
         {/* Alt Menü (Ürünler listesi) */}
         {isSubMenuOpen && (
-          <ul className="absolute left-0 mt-2 bg-white shadow-lg p-2 space-y-2 text-black w-48 z-20">
+          <ul className="absolute left-0 mt-2 bg-white  shadow-lg  space-y-2 text-gray-800 w-48 z-20 flex flex-col">
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
                 {t("nav.serviceList.roadTransportation")}
@@ -134,7 +134,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
                 {t("nav.serviceList.airTransport")}
@@ -143,7 +143,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz1")}
               >
                 {t("nav.serviceList.seaTransport")}
@@ -152,7 +152,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
                 {t("nav.serviceList.railTransport")}
@@ -161,7 +161,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
                 {t("nav.serviceList.multimodalTransport")}
@@ -170,7 +170,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz2")}
               >
                 {t("nav.serviceList.exhibitionTransport")}
@@ -179,7 +179,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
                 {t("nav.serviceList.projectTransport")} 
@@ -188,7 +188,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
                 {t("nav.serviceList.milkrunTransport")}
@@ -197,7 +197,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz3")}
               >
                 {t("nav.serviceList.warehousingServices")}
@@ -206,7 +206,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz4")}
               >
                 {t("nav.serviceList.insuranceServices")}
@@ -215,7 +215,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
             <li>
               <a
                 href="#"
-                className="hover:text-blue-600"
+                className=" p-2 pb-0 hover:bg-gray-400 flex items-center"
                 onClick={() => handleSubMenuItemClick("hizmetlerimiz4")}
               >
                 {t("nav.serviceList.customsServices")}
@@ -230,7 +230,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({
       <li>
         <a
           href="/contact"
-          className="hover:underline"
+          className="hover:underline hover:text-footer"
           onClick={() => handleLinkClick("contact")}
         >
           {t("nav.contact")}

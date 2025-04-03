@@ -63,18 +63,29 @@
   "services9": {
     "description": " Instead of delivering your European shipments directly to the address, we store them in our 20,000 square meter warehouse in Antwerp, Belgium, according to your preference. Whenever you wish, we deliver any amount of your goods to the address in Europe that you want. You can use our warehouse as a showroom for your potential customers."
   },
-  "services10":{
+  "services10": {
     "description": "We carry out the insurance processes for all the goods we transport. For your products in our Belgium warehouse, we also perform the insurance procedures and store your goods in an insured manner."
   },
   "services11": {
     "description": "With our experienced team of experts, we handle all customs procedures in logistics processes. We determine the Customs Tariff Statistical Position, provide support in obtaining preliminary approvals, and ensure compliance with bureaucracy throughout the process, offering reliable service to our customers."
   },
-
   "contact": {
-    "description":" If you have any questions or would like to collaborate, feel free to contact us.",
-    "tel":"Phone",
-    "mail":"E-Mail",
-    "address":"Address"
-
+    "description": " If you have any questions or would like to collaborate, feel free to contact us.",
+    "tel": "Phone",
+    "mail": "E-Mail",
+    "address": "Address"
+  },
+  "belgium": {
+    "description": "In our 20,000 square meter warehouse in Antwerp, Belgium, you can store your products for as long as you want at very affordable rental prices. Our warehouse can also be used as a showroom for potential customers. You can have as many pallets of your products as you want shipped to any address in Europe at any time. The remaining products will be stored in our warehouse and can be shipped whenever needed.",
+    "operations": [
+      "Your products are placed in our state-of-the-art warehouse by our professional team using proper stacking methods.",
+      "Before shipment, your products are palletized according to European standards with state-of-the-art equipment.",
+      "Your products are insured while in storage.",
+      "Your products are stored in Belgium at competitive prices instead of a storage facility in Turkey.",
+      "Our warehouse can be used as a showroom for potential customers.",
+      "Your products are systematically loaded into our own trucks by our professional team using specialized equipment.",
+      "Delivery to anywhere in Europe is completed within 24-48 hours from a single point.",
+      "Throughout the entire operational process, 24/7 accessibility and information flow are ensured in both Belgium and Turkey."
+    ]
   }
 }

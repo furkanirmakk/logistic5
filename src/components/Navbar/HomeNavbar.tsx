@@ -53,30 +53,27 @@ const HomeNavbar: React.FC = () => {
     <nav
       className={`fixed w-full z-10 h-16 flex items-center justify-between px-8 transition-all duration-300 ${
         scrolled
-          ? "bg-nbbg text-white shadow-lg"
-          : "bg-black bg-opacity-50 text-white"
-      }`}
+          ? "bg-nbbg text-white shadow-lg" // Kaydırıldığında opaklık yerine arka plan rengi
+          : "bg-nbbg text-white md:bg-opacity-50" // Kaydırılmadığında default renk
+      } `} // Sadece md ve üzeri ekranlarda opacity olacak, küçük ekranlarda normal renk
     >
       <div className="flex justify-center items-center h-full">
         <img
           src="/assets/logo3.png"
           alt="Şirket Logosu"
-          className="w-32 h-auto"
+          className="w-56 h-auto"
         />
       </div>
 
       {/* Desktop Menü: Sadece medium ve üzeri ekranlarda görünür */}
-      <div className="hidden md:flex">
+      <div className="hidden md:flex ">
         <DesktopMenu
           activeLink={activeLink || ""} // Aktif bağlantı
           handleLinkClick={handleLinkClick} // Link tıklama fonksiyonu
           showSubMenu={showSubMenu} // Alt menü durumu
           toggleSubMenu={toggleSubMenu} // Alt menüyü toggle eden fonksiyon
         />
-        
       </div>
-      
-      
 
       {/* Mobil Menü İkonu: Sadece küçük ekranlarda (md:hidden) görünür */}
       <div className="md:hidden">
@@ -104,11 +101,8 @@ const HomeNavbar: React.FC = () => {
         handleLinkClick={handleLinkClick} // Link tıklama fonksiyonu
         showSubMenu={showSubMenu} // Alt menü durumu
         toggleSubMenu={toggleSubMenu} // Alt menüyü toggle eden fonksiyon
-        toggleMenu={toggleMenu} // Menü açma/kapama fonksiyonu  
+        toggleMenu={toggleMenu} // Menü açma/kapama fonksiyonu
       />
-      
-
-      
     </nav>
   );
 };

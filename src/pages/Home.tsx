@@ -43,7 +43,7 @@ const Home: React.FC = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <HomeNavbar />
-      <div className="flex-1">
+      <div className="flex-1 mt-16 md:mt-0">
         <Slider {...settings}>
           
           <div>
@@ -67,11 +67,18 @@ const Home: React.FC = () => {
               className="w-full h-full object-cover"
             />
           </div>
+          <div>
+            <img
+              src="/assets/88.png"
+              alt="Slide 4"
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </Slider>
         <div>
           <div
             id="hizmetlerimiz-1"
-            className="text-center my-8 pt-20 flex items-center justify-center"
+            className="text-center my-8 md:pt-20 pt-4 flex items-center justify-center"
           >
             <div className="w-20 h-1 bg-gray-800 mr-4 rounded"></div>
             <h1 className="text-3xl font-bold text-gray-800">{t("nav.services")}</h1>
@@ -81,19 +88,19 @@ const Home: React.FC = () => {
           <OurServices products={services1} />
           <div
             id="hizmetlerimiz-2"
-            className="text-center  pt-20 flex items-center justify-center"
+            className="text-center md:pt-20 pt-4  flex items-center justify-center"
           >
             <OurServices products={services2} />
           </div>
           <div
             id="hizmetlerimiz-3"
-            className="text-center  pt-20 flex items-center justify-center"
+            className="text-center  md:pt-20 pt-4 flex items-center justify-center"
           >
             <OurServices products={services3} />
           </div>
           <div
             id="hizmetlerimiz-4"
-            className="text-center  pt-20 flex items-center justify-center"
+            className="text-center  md:pt-20 pt-4 flex items-center justify-center"
           >
             <OurServices products={services4} />
           </div>

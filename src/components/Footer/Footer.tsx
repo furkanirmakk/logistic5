@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
             <img
               src="/assets/logo3.png"
               alt="Şirket Logosu"
-              className="w-64 h-auto"
+              className="w-80 h-auto"
             />
           </div>
 
