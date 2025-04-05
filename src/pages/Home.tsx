@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     slidesToShow: 1, // Her seferinde 1 slayt göster
     slidesToScroll: 1, // Her kaydırmada 1 slayt göster
     autoplay: true, // Otomatik oynatma
-    autoplaySpeed: 1000, // Her slayt arasında bekleme süresi (ms)
+    autoplaySpeed: 10000, // Her slayt arasında bekleme süresi (ms)
     swipeToSlide: true, // Kaydırma ile geçişi aktif eder
     adaptiveHeight: false, // Yükseklik adaptasyonu
   };
@@ -69,7 +69,28 @@ const Home: React.FC = () => {
           </div>
           <div>
             <img
-              src="/assets/88.png"
+              src="/assets/9.png"
+              alt="Slide 4"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/8.png"
+              alt="Slide 4"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/10.png"
+              alt="Slide 4"
+              className="w-full h-auto object-cover"
+            />
+          </div>
+          <div>
+            <img
+              src="/assets/11.png"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />
