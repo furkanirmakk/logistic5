@@ -11,7 +11,7 @@
       "seaTransport": "Denizyolu Taşımacılığı",
       "railTransport": "Demiryolu Taşımacılığı",
       "multimodalTransport": "Multimodal Taşımacılığı",
-      "exhibitionTransport": "Fura Taşımacılığı",
+      "exhibitionTransport": "Fuar Taşımacılığı",
       "projectTransport": "Proje Taşımacılığı",
       "milkrunTransport": "Milkrun Taşımacılığı",
       "warehousingServices": "Depolama Hizmetleri",
@@ -27,6 +27,8 @@
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "contact": "İletişim",
+    "belgiumWarehouse":"Belçika Depomuz",
+    "services": "Hizmetlerimiz",
     "socialMedia": "Sosyal Medya"
   },
   "about": {

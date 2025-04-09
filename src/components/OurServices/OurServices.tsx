@@ -29,7 +29,7 @@ const OurServices: React.FC<ProductProps> = ({ products }) => {
                 <img
                   src={services.imageUrl}
                   alt={services.name}
-                  className="w-full h-48 object-cover transition-all duration-500 transform group-hover:rotate-y-180 group-hover:scale-110 group-hover:blur-sm"
+                  className="w-full h-64 object-cover transition-all duration-500 transform group-hover:rotate-y-180 group-hover:scale-110 group-hover:blur-sm"
                 />
                 <div
                   className="absolute bottom-0 w-full bg-gray-400 text-gray-800 text-center py-2 transition-all duration-300 transform opacity-100 group-hover:translate-y-[-100%] group-hover:opacity-100"

@@ -63,6 +63,22 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="/belgiumWarehouse"
+                  className="hover:underline hover:text-footer flex justify-center items-cente"
+                >
+                  {t("footer.belgiumWarehouse")}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#hizmetlerimiz-1"
+                  className="hover:underline hover:text-footer flex justify-center items-cente"
+                >
+                  {t("footer.services")}
+                </a>
+              </li>
+              <li>
+                <a
                   href="/contact"
                   className="hover:underline hover:text-footer flex justify-center items-cente"
                 >

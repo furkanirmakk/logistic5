@@ -19,67 +19,67 @@ const ServicesDetails: React.FC = () => {
       id: 1,
       name: t("nav.serviceList.roadTransportation"),
       description: t("services1.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/road2.jpg"],
     },
     {
       id: 2,
       name: t("nav.serviceList.airTransport"),
       description: t("services2.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/air2.jpg"],
     },
     {
       id: 3,
       name: t("nav.serviceList.seaTransport"),
       description:t("services3.description") ,
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/sea2.jpg"],
     },
     {
       id: 4,
       name: t("nav.serviceList.railTransport"),
       description: t("services4.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/rail2.jpg"],
     },
     {
       id: 5,
       name: t("nav.serviceList.multimodalTransport"),
       description: t("services5.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/multimodal2.jpg"],
     },
     {
       id: 6,
       name: t("nav.serviceList.exhibitionTransport"),
       description: t("services6.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/exhibition2.jpg"],
     },
     {
       id: 7,
       name: t("nav.serviceList.projectTransport"),
       description: t("services7.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/project2.jpg"],
     },
     {
       id: 8,
       name: t("nav.serviceList.milkrunTransport"),
       description: t("services8.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/milkrun2.jpg"],
     },
     {
       id: 9,
       name: t("nav.serviceList.warehousingServices"),
       description: t("services9.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/warehouse2.jpg"],
     },
     {
       id: 10,
       name: t("nav.serviceList.insuranceServices"),
       description: t("services10.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/insurance2.jpg"],
     },
     {
       id: 11,
       name: t("nav.serviceList.customsServices"),
       description: t("services11.description"),
-      images: ["/assets/1.png"],
+      images: ["/assets/service photos/customs2.jpg"],
     },
 
     // Diğer ürünler...
@@ -117,8 +117,6 @@ const ServicesDetails: React.FC = () => {
             <img
               src={product.images[selectedImageIndex]}
               alt={product.name}
-              className={`w-full h-auto object-cover rounded shadow image-transition ${animationClass}`}
-              onAnimationEnd={() => setAnimationClass("")} // Animasyon tamamlandığında sınıfı temizle
             />
           </div>
         </div>

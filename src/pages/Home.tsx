@@ -21,23 +21,23 @@ const Home: React.FC = () => {
     const { t } = useTranslation();
 
   const services1 = [
-    { id: 1, name: t("nav.serviceList.roadTransportation"), imageUrl: "/assets/5.png" },
-    { id: 2, name: t("nav.serviceList.airTransport"), imageUrl: "/assets/6.png" },
-    { id: 3, name: t("nav.serviceList.seaTransport"), imageUrl: "/assets/7.png" },
+    { id: 1, name: t("nav.serviceList.roadTransportation"), imageUrl: "/assets/service photos/road.jpg" },
+    { id: 2, name: t("nav.serviceList.airTransport"), imageUrl: "/assets/service photos/air.jpg" },
+    { id: 3, name: t("nav.serviceList.seaTransport"), imageUrl: "/assets/service photos/sea.jpg" },
   ];
   const services2 = [
-    { id: 4, name: t("nav.serviceList.railTransport"), imageUrl: "/assets/5.png" },
-    { id: 5, name: t("nav.serviceList.multimodalTransport"), imageUrl: "/assets/6.png" },
-    { id: 6, name: t("nav.serviceList.exhibitionTransport"), imageUrl: "/assets/7.png" },
+    { id: 4, name: t("nav.serviceList.railTransport"), imageUrl: "/assets/service photos/rail.jpg" },
+    { id: 5, name: t("nav.serviceList.multimodalTransport"), imageUrl: "/assets/service photos/multimodal.jpg" },
+    { id: 6, name: t("nav.serviceList.exhibitionTransport"), imageUrl: "/assets/service photos/exhibition.jpg" },
   ];
   const services3 = [
-    { id: 7, name: t("nav.serviceList.projectTransport"), imageUrl: "/assets/5.png" },
-    { id: 8, name: t("nav.serviceList.milkrunTransport"), imageUrl: "/assets/6.png" },
-    { id: 9, name: t("nav.serviceList.warehousingServices"), imageUrl: "/assets/7.png" },
+    { id: 7, name: t("nav.serviceList.projectTransport"), imageUrl: "/assets/service photos/project.jpg" },
+    { id: 8, name: t("nav.serviceList.milkrunTransport"), imageUrl: "/assets/service photos/milkrun.jpg" },
+    { id: 9, name: t("nav.serviceList.warehousingServices"), imageUrl: "/assets/service photos/warehouse.jpg" },
   ];
   const services4 = [
-    { id: 10, name: t("nav.serviceList.insuranceServices"), imageUrl: "/assets/5.png" },
-    { id: 11, name: t("nav.serviceList.customsServices"), imageUrl: "/assets/6.png" },
+    { id: 10, name: t("nav.serviceList.insuranceServices"), imageUrl: "/assets/service photos/insurance.jpg" },
+    { id: 11, name: t("nav.serviceList.customsServices"), imageUrl: "/assets/service photos/customs.jpg" },
   ];
 
   return (
@@ -48,21 +48,21 @@ const Home: React.FC = () => {
           
           <div>
             <img
-              src="/assets/5.png"
+              src="/assets/turkiyeden avrupaya.png"
               alt="Slide 2"
               className="w-full h-full object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/6.png"
+              src="/assets/antwerp depo.png"
               alt="Slide 3"
               className="w-full h-full object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/7.png"
+              src="/assets/tasıma modelleri.png"
               alt="Slide 4"
               className="w-full h-full object-cover"
             />
@@ -76,21 +76,21 @@ const Home: React.FC = () => {
           </div>
           <div>
             <img
-              src="/assets/8.png"
+              src="/assets/hoop.png"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/10.png"
+              src="/assets/hoop deyince.png"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/11.png"
+              src="/assets/avrupa.png"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />

@@ -6,6 +6,21 @@ const LanguageSelector = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { i18n, t } = useTranslation();
 
+  const getFlagCode = (lang: string) => {
+    switch (lang) {
+      case "en":
+        return "GB"; // veya "US" kullanabilirsin
+      case "tr":
+        return "TR";
+      case "de":
+        return "DE";
+      case "nl":
+        return "NL";
+      default:
+        return "GB";
+    }
+  };
+
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
     setIsOpen(false);
@@ -15,9 +30,9 @@ const LanguageSelector = () => {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className=""
+        className="p-2 flex items-center gap-2"
       >
-        {t("language.language")}
+        <Flag code={getFlagCode(i18n.language)} className="w-6 h-4" />
       </button>
 
       {isOpen && (
