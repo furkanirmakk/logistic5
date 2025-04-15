@@ -27,7 +27,7 @@
     "home": "Startpagina",
     "about": "Over ons",
     "contact": "Contact",
-    "belgiumWarehouse":"Ons magazijn in België",
+    "belgiumWarehouse": "Ons magazijn in België",
     "services": " Onze diensten",
     "socialMedia": "Sociale Media"
   },
@@ -89,5 +89,8 @@
       "Levering naar elke locatie in Europa wordt binnen 24-48 uur voltooid vanaf één centraal punt.",
       "Gedurende het hele operationele proces wordt 24/7 bereikbaarheid en informatievoorziening gegarandeerd in zowel België als Turkije."
     ]
+  },
+  "adress": {
+    "warehouse": "Ons Belgische magazijn"
   }
 }

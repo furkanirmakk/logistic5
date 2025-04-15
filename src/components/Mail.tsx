@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 
 const Mail = () => {
   const handleClick = () => {
-    const email = "example@example.com"; // Burada göndereceğiniz mail adresini yazın
-    const subject = "E-posta Konusu"; // İstediğiniz konu başlığını buraya yazabilirsiniz
+    const email = "cemumut23@gmail.com"; // Burada göndereceğiniz mail adresini yazın
+    const subject = ""; // İstediğiniz konu başlığını buraya yazabilirsiniz
     const body = "Mesajınızı buraya yazabilirsiniz."; // E-posta içeriği
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(
       subject

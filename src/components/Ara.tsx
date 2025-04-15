@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Ara: React.FC = () => {
-  const phoneNumber = "+905322649196"; // Aranacak telefon numarası
+  const phoneNumber = "+905322484586"; // Aranacak telefon numarası
 
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;

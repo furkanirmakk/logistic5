@@ -1,11 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faGoogle,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 const Footer: React.FC = () => {
@@ -100,7 +94,7 @@ const Footer: React.FC = () => {
                 <button
                   onClick={() =>
                     (window.location.href =
-                      "https://www.google.com/maps/dir//altuni%C5%9F+tar%C4%B1m+makinalar%C4%B1/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x152a6e67498564d3:0x19f731ec0eb56074?sa=X&amp;ved=2ahUKEwiC__D804T_AhVGR_EDHcfID6IQ9Rd6BAhDEAQ")
+                      "https://www.google.com.tr/?hl=tr")
                   }
                   className="group flex justify-center  p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#a21caf] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
                 >
@@ -129,7 +123,7 @@ const Footer: React.FC = () => {
                 <button
                   onClick={() =>
                     (window.location.href =
-                      "https://instagram.com/altunistarim?igshid=MzRlODBiNWFlZA==")
+                      "https://instagram.com")
                   }
                   className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#a21caf] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
                 >
@@ -155,7 +149,7 @@ const Footer: React.FC = () => {
                 <button
                   onClick={() =>
                     (window.location.href =
-                      "https://www.facebook.com/mehmet.gokce.5458")
+                      "https://www.facebook.com")
                   }
                   className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
                 >

@@ -27,7 +27,7 @@
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "contact": "İletişim",
-    "belgiumWarehouse":"Belçika Depomuz",
+    "belgiumWarehouse": "Belçika Depomuz",
     "services": "Hizmetlerimiz",
     "socialMedia": "Sosyal Medya"
   },
@@ -77,17 +77,20 @@
     "mail": "E-Mail",
     "address": "Adres"
   },
-    "belgium": {
-      "description": "Belçika Antwerp'te bulunan 20.000 metrekare depomuzda çok uygun kiralama fiyatlarımızla ürünlerinizi istediğiniz kadar tutabilir, potansiyel müşterileriniz için depomuzu showroom olarak kullanabilirsiniz. Dilediğiniz zaman Avrupa'daki istediğiniz adrese ürünlerin palet bazında istediğiniz kadarının gönderimini sağlayabiliriz. Kalan ürünler depomuzda dilediğiniz zaman gönderimleri yapılmak üzere muhafaza edilir.",
-      "operations": [
-        "Son sistem kurulu depomuza ürünleriniz profesyonel ekibimiz ile uygun istifleme yöntemleriyle yerleştirilir.",
-        "Ürünleriniz sevkiyat öncesi son teknoloji ekipmanlarla Avrupa standartlarında paletlenir.",
-        "Ürünleriniz depoda sigortalanır.",
-        "Ürünleriniz Türkiye'deki depolama yerine uygun fiyatlarla Belçika'da depolanır.",
-        "Depomuz potansiyel müşteriler için showroom olarak kullanılabilir.",
-        "Ürünleriniz sevkiyat için kendi tırlarımıza profesyonel ekip ve ekipmanlarımızla sistematik yerleştirilir.",
-        "Tek noktadan Avrupa'nın her yerine 24-48 saat arasında teslimat yapılır.",
-        "Tüm operasyon sürecinde Belçika ve Türkiye’de 7/24 ulaşılabilirlik ve bilgi akışı sağlanır."
-      ]
-    }
+  "belgium": {
+    "description": "Belçika Antwerp'te bulunan 20.000 metrekare depomuzda çok uygun kiralama fiyatlarımızla ürünlerinizi istediğiniz kadar tutabilir, potansiyel müşterileriniz için depomuzu showroom olarak kullanabilirsiniz. Dilediğiniz zaman Avrupa'daki istediğiniz adrese ürünlerin palet bazında istediğiniz kadarının gönderimini sağlayabiliriz. Kalan ürünler depomuzda dilediğiniz zaman gönderimleri yapılmak üzere muhafaza edilir.",
+    "operations": [
+      "Son sistem kurulu depomuza ürünleriniz profesyonel ekibimiz ile uygun istifleme yöntemleriyle yerleştirilir.",
+      "Ürünleriniz sevkiyat öncesi son teknoloji ekipmanlarla Avrupa standartlarında paletlenir.",
+      "Ürünleriniz depoda sigortalanır.",
+      "Ürünleriniz Türkiye'deki depolama yerine uygun fiyatlarla Belçika'da depolanır.",
+      "Depomuz potansiyel müşteriler için showroom olarak kullanılabilir.",
+      "Ürünleriniz sevkiyat için kendi tırlarımıza profesyonel ekip ve ekipmanlarımızla sistematik yerleştirilir.",
+      "Tek noktadan Avrupa'nın her yerine 24-48 saat arasında teslimat yapılır.",
+      "Tüm operasyon sürecinde Belçika ve Türkiye’de 7/24 ulaşılabilirlik ve bilgi akışı sağlanır."
+    ]
+  },
+  "adress":{
+    "warehouse": "Belçika Depomuz"
+  }
 }
