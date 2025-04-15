@@ -53,14 +53,13 @@ Bu proje sayesinde lojistik gibi hız, güven ve iletişimin çok önemli olduğ
     Resposive Tasarım 
   </p>
   <p>
-    <img src="git photos/7.png" alt="drawing" width="200">
-             <img src="git photos/16.png" alt="drawing" width="200">
-              <img src="git photos/15.png" alt="drawing" width="200">
-               <img src="git photos/14.png" alt="drawing" width="200">
-                <img src="git photos/13.png" alt="drawing" width="200">
-                 <img src="git photos/12.png" alt="drawing" width="200">
-                  <img src="git photos/11.png" alt="drawing" width="200">
-                    <img src="git photos/10.png" alt="drawing" width="200">
-                      <img src="git photos/9.png" alt="drawing" width="200">
+             <img src="git photos/16.jpg" alt="drawing" width="200">
+              <img src="git photos/15.jpg" alt="drawing" width="200">
+               <img src="git photos/14.jpg" alt="drawing" width="200">
+                <img src="git photos/13.jpg" alt="drawing" width="200">
+                 <img src="git photos/12.jpg" alt="drawing" width="200">
+                  <img src="git photos/11.jpg" alt="drawing" width="200">
+                    <img src="git photos/10.jpg" alt="drawing" width="200">
+                      <img src="git photos/9.jpg" alt="drawing" width="200">
   </p>
   
