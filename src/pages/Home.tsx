@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     slidesToShow: 1, // Her seferinde 1 slayt göster
     slidesToScroll: 1, // Her kaydırmada 1 slayt göster
     autoplay: true, // Otomatik oynatma
-    autoplaySpeed: 10000, // Her slayt arasında bekleme süresi (ms)
+    autoplaySpeed: 3000, // Her slayt arasında bekleme süresi (ms)
     swipeToSlide: true, // Kaydırma ile geçişi aktif eder
     adaptiveHeight: false, // Yükseklik adaptasyonu
   };
