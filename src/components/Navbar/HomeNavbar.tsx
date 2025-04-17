@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import DesktopMenu from "../DesktopMenu";
 import MobileMenu from "../MobileMenu";
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 import LanguageSelector from "../LanguageSelector ";
 
 const HomeNavbar: React.FC = () => {
@@ -58,11 +59,13 @@ const HomeNavbar: React.FC = () => {
       } `} // Sadece md ve üzeri ekranlarda opacity olacak, küçük ekranlarda normal renk
     >
       <div className="flex justify-center items-center h-full">
-        <img
-          src="/assets/logo3.png"
-          alt="Şirket Logosu"
-          className="w-56 h-auto"
-        />
+        <Link to="/">
+          <img
+            src="/assets/logo3.png"
+            alt="Şirket Logosu"
+            className="md:w-52  w-40 h-auto cursor-pointer"
+          />
+        </Link>
       </div>
 
       {/* Desktop Menü: Sadece medium ve üzeri ekranlarda görünür */}

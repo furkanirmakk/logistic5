@@ -48,49 +48,49 @@ const Home: React.FC = () => {
           
           <div>
             <img
-              src="/assets/turkiyeden avrupaya.png"
+              src="/assets/turkiyeden-avrupaya1.webp"
               alt="Slide 2"
               className="w-full h-full object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/antwerp depo.png"
+              src="/assets/antwerp-depo.webp"
               alt="Slide 3"
               className="w-full h-full object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/tasıma modelleri.png"
+              src="/assets/tasıma-modelleri.webp"
               alt="Slide 4"
               className="w-full h-full object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/9.png"
+              src="/assets/9.webp"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/hoop.png"
+              src="/assets/hoop.webp"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/hoop deyince.png"
+              src="/assets/hoop-deyince.webp"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />
           </div>
           <div>
             <img
-              src="/assets/avrupa.png"
+              src="/assets/avrupa.webp"
               alt="Slide 4"
               className="w-full h-auto object-cover"
             />

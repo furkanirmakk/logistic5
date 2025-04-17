@@ -124,7 +124,7 @@ const ServicesDetails: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-1 gap-10 p-6 mt-8 bg-gradient-to-r from-[#A8782E] via-[#D1A54C] to-[#D89A45] rounded-xl shadow-lg">
           {/* Ürün açıklaması */}
           <div className="flex flex-col items-center justify-center text-center">
-            <p className="text-lg text-gray-800 mt-6 max-w-lg">
+            <p className="text-lg text-white mt-6 max-w-lg">
               {product.description}
             </p>
           </div>
